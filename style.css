@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    background-color: #cc78;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+    display: flex;
+    border: 1px solid #FC8EAC;
+    padding: 20px;
+}
+
+
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 20px;
+    align-items: self-end;
+}
+
+hr{
+    width: 100%;
+    border: 0.5px solid #FC8EAC;
+}
+
+.selectCont{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.selectCont h5{
+    text-align: center;
+    font-size: 50px;
+}
+
+.selectCont select{
+    font-size: 20px;
+    border: none;
+}
+.image {
+    border: 1px solid #FC8EAC;
+    width: inherit;
+    height: 50%;
+    padding: 0%;
+}
+img{
+    width: 155px;
+    height: 155px;
+}
+
+button{
+    width: 50%;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    border: none;
+    background-color: #FC8EAC;
+    color: white;
+}
+
+.fa-heart{
+    color: #FC8EAC;
+}
