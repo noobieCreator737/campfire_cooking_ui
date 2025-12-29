@@ -7,9 +7,10 @@ let price = document.getElementById('price');
 // }
 
 let result = '';
-// for(var i = 0; i < numbers.length; i++){
-//     price.innerHTML = "#" + price.innerHTML * numbers.option[i].value;
-// }
+ for(var i = 0; i < numbers.length; i++){
+     price.innerHTML = "#" + price.innerHTML * numbers.option[i].value;
+ }
 
 price.innerText = result;
+
 price.innerHTML = "#" + price.innerHTML * numbers.value;
