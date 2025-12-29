@@ -13,4 +13,5 @@ let result = '';
 
 price.innerText = result;
 
-price.innerHTML = "#" + price.innerHTML * numbers.value;
+// price.innerHTML = "#" + price.innerHTML * numbers.value;
+
